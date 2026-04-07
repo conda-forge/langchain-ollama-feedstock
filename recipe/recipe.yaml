@@ -1,6 +1,6 @@
 context:
   name: langchain-ollama
-  version: "1.0.1"
+  version: "1.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/langchain_ollama-${{ version }}.tar.gz
-  sha256: e37880c2f41cdb0895e863b1cfd0c2c840a117868b3f32e44fef42569e367443
+  sha256: f776f56f6782ae4da7692579b94a6575906118318d1023b455d7207f9d059811
 
 build:
   number: 0
